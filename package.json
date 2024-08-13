@@ -6,12 +6,16 @@
   "main": "bundle.js",
   "type": "module",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "zip": "rm -f extension.zip && zip -r extension.zip .",
+    "crx": "rm -f extension.crx && crx pack . -p extension.pem -o extension.crx"
   },
   "dependencies": {
     "tone": "^14.7.77"
   },
   "devDependencies": {
+    "crx": "^5.0.1",
     "path-browserify": "^1.0.1",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4"
