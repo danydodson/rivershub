@@ -1,0 +1,20 @@
+{
+  "name": "rivershub",
+  "version": "1.0.0",
+  "description": "rivershub",
+  "author": "dany",
+  "main": "bundle.js",
+  "type": "module",
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "tone": "^14.7.77"
+  },
+  "devDependencies": {
+    "path-browserify": "^1.0.1",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "license": "ISC"
+}

@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "RiversHub",
+  "version": "0.1",
+  "description": "RiversHub",
+  "content_scripts": [
+    {
+      "js": [ "bundle.js" ],
+      "matches": [ "*://github.com/*", "*://www.github.com/*" ],
+      "run_at": "document_idle"
+    }
+  ]
+}
