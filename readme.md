@@ -1,7 +1,7 @@
 # RiversHub
 
 <p align="center">
-  <img src="./weezcat.jpeg" width="29%"/>
+  <img src="./icon.jpeg" width="29%"/>
 </p>
 
 This is a Chrome extension that makes your GitHub profile into Weezer colors and maps your GitHub commit log into a playable audio soundtrack based off your GitHub contributions calendar!
